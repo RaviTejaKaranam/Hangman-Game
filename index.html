@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="images/favicon.png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+</head>
+<body>
+    <div class="header">
+        <h1>HANGMAN</h1>
+        <div class="puzzle" id = "puzzle"></div>
+        <p id = "guesses"></p>
+        <input type="radio" id="one-word" name="difficulty" value="1">
+        <label class="radio" for="one-word">One Word</label> <br>
+        <input type="radio" id="two-word" name="difficulty" value="2" checked>
+        <label class="radio" for="two-word">Two Words</label> <br>
+        <input type="radio" id="three-word" name="difficulty" value="3">
+        <label class="radio" for="three-word">Three Words</label> <br>
+        <button id="reset" class="button">Reset</button>
+    </div>
+    <footer>
+        <p>Created by Ravi Teja under the guidance of Andrew Mead</p>
+    </footer>
+    
+    <script src="scripts/requests.js"></script>
+    <script src = "scripts/hangman.js"></script>
+    <script src = "scripts/app.js"></script>
+</body>
+</html>
