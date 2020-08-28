@@ -32,7 +32,7 @@ const startGame = async (count) => {
     render()
 }
 startGame(2)
-let count
+let count = 2
 const radios = document.querySelectorAll('input[type=radio][name="difficulty"]')
 radios.forEach((radio) => { 
     radio.addEventListener('change',(e)=>{
